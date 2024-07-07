@@ -17,6 +17,7 @@ if(player.lower()=='y'):
     import game_logic as g
     g.game_logic()
 else:
+    #prints the thankyou message 
     print(f"{candidate}, Thank you please do try to play next time ")
 
 
