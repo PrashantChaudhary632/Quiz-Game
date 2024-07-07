@@ -1,5 +1,6 @@
 def game_logic():
 
+#Reads the data from the JSON file
     import json
     with  open("E:\\Python Examples\\quiz_data.json","r") as f:
             quiz_data = json.load(f)

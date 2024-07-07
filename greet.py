@@ -14,4 +14,4 @@ def greeting():
     else:
         print("Hii!! ",candidate)  
 
-    return candidate
+    return candidate  #retuns the name of the player to the main file

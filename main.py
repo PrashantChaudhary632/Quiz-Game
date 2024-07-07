@@ -1,9 +1,9 @@
 #greeting the player
 
 import greet as g
-candidate = g.greeting()
+candidate = g.greeting()  #receives the name of the player from greeting.py file
 
-
+#take the input from user until the user press 'n'
 import add_ques as a
 while True:
     admin = input("Do you want to add questions?(y/n) : ")
@@ -12,6 +12,7 @@ while True:
     else:
         break
 
+#game starts with the player permission
 player = input("Do you want to play game??(y/n) : ")
 if(player.lower()=='y'):
     import game_logic as g
